@@ -1,0 +1,768 @@
+body{
+    margin: 0; 
+    background: url("img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/*header*/
+
+.header {  
+    background: #005BC199;
+    height: 80px;
+}
+.header-inner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+.logo {
+    display: flex;
+    top: 15px;
+    left: 405px;
+    margin: 11px 55px ;
+}
+ .logo-img {
+    width: 57.74px;
+    height: 50px;
+    margin-right: 8px;
+}
+ .nav-item {
+    text-decoration: none;
+    text-align: center;
+    margin-right: 20px;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    transition: color 0.2s linear;
+ }
+
+ .nav-item:hover {
+    color: yellow;
+ }
+
+ .text-logo {
+    font-family: 'Titillium Web';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    margin-right: 550px;
+ }
+
+ /*header-down*/
+
+ .header-down {
+     text-align: start;
+ }
+
+ .header-title {
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 71px;
+    text-align: left;
+    position: relative;
+    margin-left: 305px;
+    top: 150px;
+    z-index: 1;
+}
+
+.header-subtitle {
+    position: relative;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #ffffff;
+    margin-left: 305px;
+    top: 190px;
+    z-index: 1;
+
+}
+
+.fon {
+    background-color: #005BC199;
+    width: 450px;
+    height: 706px;
+    left: 200px;
+    bottom: 186px;
+    position: relative;
+}
+
+.checkout {
+    border: 2px solid #ffffff;
+    height: 400px;
+    width: 300px;
+    position: relative;
+    bottom: 460px;
+    margin-left: 305px;
+    font-size: 16px;
+    padding: 17px 35px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Open Sans;
+}
+
+
+.checkout:hover {
+    text-decoration: underline;
+}
+
+
+      /*content*/
+
+.project {
+  height: 650px;
+  position: relative;
+  bottom: 100px;
+}
+
+.line {
+    position: relative;
+    margin-left: 220px;
+    margin-right: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.text-pro {
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    border: none;
+    background-color: #ffffff;
+    position: relative;
+    left: 675px;
+    width: 57px;
+    height: 51px;
+}
+
+.cards {
+    position: relative;
+    top: 65px;
+    
+}
+
+.card-item {
+    height: 31px;
+    width: 50px;
+    margin-left: 180px;
+}
+
+.img-pro {
+    width: 535px;
+    height: 375px;
+}
+
+.img-pro2 {
+    width: 535px;
+    height: 375px;
+    position: relative;
+    left: 600px;
+    bottom: 31px;
+}
+
+.text-card1 {
+    position: relative;
+    border: none;
+    background-color: #ffffff;
+    width: 250px;
+    height: 110px;
+    bottom: 165px;
+    left: 250px;
+    text-align: center;
+}
+
+.text-card2 {
+    position: relative;
+    border: none;
+    background-color: #ffffff;
+    width: 250px;
+    height: 110px;
+    bottom: 190px;
+    left: 848px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Oswald;
+    padding: 10px;
+    font-weight: 400;
+    position: relative;
+    right: 45px;
+}
+
+.pharagraf {
+    font-family: Open Sans;
+    color: var(--black, #343434);
+    text-align: left;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+
+}
+
+/* KATOLOG */
+
+.line::before {
+    content: "";
+    background-image: url(https://grigoriy-golovin.github.io/light/img/decor-heading.svg);
+    background-repeat: no-repeat;
+    width: 102px;
+    height: 15px;
+    left: 0px;
+    bottom: 12px;
+    margin-right: 40px;    
+}
+.text-pro2 {
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+.button-k {
+    display: flex;
+    position: relative;
+    margin-left: 670px;
+    margin-top: 50px;
+}
+.kotalog {
+    height: 700px;
+    position: relative;
+    bottom: 40px;
+}
+.text-but {
+    font-size: 24px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: 0.3s;
+    margin-right: 40px;
+
+}
+.text-but:hover {
+    color: #005BC1;
+    text-decoration: underline;
+
+}
+.text-but2 {
+    font-size: 24px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.text-but2:hover {
+    color: #005BC1;
+    text-decoration: underline;
+
+}
+
+
+.p {
+    width: 250px;
+    height: 80px;
+    border: #005BC1 1px ;
+    background-color: #005BC1;
+    position: relative;
+    top: 50px;
+    right: 400px;
+}
+.card-text  {
+    font-family: 'Oswald';
+    color: var(--white, #FFF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+.one-ktg div {  
+    width: 265px;
+    height: 86px;
+    background: #005BC1;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box; 
+    position: relative;
+    bottom: 105px;
+    margin-left: 305px;
+}
+
+.one-ktg2 div {
+    width: 265px;
+    height: 86px;
+    position: relative;
+    background: #005BC1;
+    display: flex;
+    position: relative;
+    bottom: 475px;
+    left: 699px;
+    align-items: center;
+}
+
+.one-ktg3 div {
+    position: relative;
+    width: 265px;
+    height: 86px;
+    background: #005BC1;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box; 
+    position: relative;
+    bottom: 845px;
+    margin-left: 1090px;
+}
+
+.one-ktg img {
+    position: relative;
+    margin-left: 220px;
+}
+
+.one-ktg2 img {
+    position: relative;
+    margin-left: 615px;
+    bottom: 369px;
+}
+.one-ktg3 img {
+    position: relative;
+    margin-left: 1005px;
+    bottom: 738px;
+}
+
+/*arenda*/
+
+.text-arenda::before {
+    content: "";
+    background-image: url(https://grigoriy-golovin.github.io/light/img/decor-heading.svg);
+    background-repeat: no-repeat;
+    width: 102px;
+    height: 15px;
+    left: 0px;
+    bottom: 12px;
+    margin-right: 40px;    
+}
+
+.arenda-line {
+    margin-left: 220px;
+}
+
+.text-arenda {
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.container-in {
+    border: 2px solid #005BC1  ;
+    width: 665px;
+    height: 394px;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: 80px;
+    margin-top: 10px;
+} 
+
+.flex-aren {
+    display: flex;
+    align-items: center;
+}
+.in-b {
+    color:  #343434;
+    font-family: 'Oswald';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 42px;
+    margin-left: 30px;
+}
+
+.new-dewice-conteiner {
+    display: flex;
+}
+
+.new-dewice-conteiner p {
+    color:  #343434;
+    width: 350px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 220px;
+    margin-top: 150px;
+}
+
+
+.arenda-but {
+    width: 55px;
+    height: 55px;
+    position: relative;
+    top: 20px;
+    left: 95px;
+}
+
+.in-img img {
+    width: 255px;
+    height: 255px;
+    margin-left: 35px;
+    position: relative;
+    bottom: 41px;
+}
+
+.arenda-h3 {
+    color:  #343434;
+    font-family: Oswald;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 390px;
+}
+
+.arenda-ul {
+    color:  #343434;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: relative;
+    bottom: 290px;
+    margin-left: 330px;
+    
+}
+
+.arenda-li {
+    padding-top: 25px;
+}
+
+
+/* NEWS*/
+
+.text-news::before {
+    content: "";
+    background-image: url(https://grigoriy-golovin.github.io/light/img/decor-heading.svg);
+    background-repeat: no-repeat;
+    width: 102px;
+    height: 15px;
+    left: 0px;
+    bottom: 12px;
+    margin-right: 40px; 
+}
+
+
+.text-news {   
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;    
+    margin-left: 230px;
+    align-items: center;
+    position: relative;
+    margin-right: 649px;
+}
+
+.news-cont {
+   height: 500px;
+   width: 200px;
+   margin-top: 60px;
+}
+ 
+
+.news-line {
+    display: flex;
+    align-items: center;
+}
+
+.news-cards1 {
+   position: relative;
+   left: 225px;
+   margin-top: 70px;
+}
+
+.news-cards1 time {
+    position: relative;
+    left: 458px;
+    bottom: 245px;
+    color: #979797;
+    text-align: right;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+
+.news-cards1 h3 {
+    position: relative;
+    left: 270px;
+    bottom: 300px;
+    color:  #343434;
+    font-family: Oswald;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+} 
+
+.news-cards1 p {
+    color: var(--black, #343434);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 255px;
+    height: 133px;
+    position: relative;
+    left: 280px;
+    bottom: 280px;
+}
+
+
+.news-cards1 a {
+    color: var(--black, #343434);
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    position: relative;
+    left: 280px;
+    bottom: 280px;
+}
+
+.news-cards2 {
+    position: relative;
+    left: 850px;
+    bottom: 560px;
+}
+.news-cards2 h4 {
+    color: var(--black, #343434);
+    font-family: 'Oswald';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    width: 225px;
+    height: 49px;
+    position: relative;
+    top: 20px;
+}
+
+.news-cards2 p {
+    color: var(--black, #343434);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: relative;
+    top: 15px;
+}
+.news-cards2 time{
+    color: #979797;
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    left: 150px;
+    top: 120px;
+}
+
+.news-cards3 {
+    position: relative;
+    bottom: 860px;
+    left: 1150px;
+}
+
+.news-cards3 h3 {
+    color: var(--black, #343434);
+    font-family: Oswald;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    position: relative;
+    top: 30px;
+}
+
+.news-cards3 time {
+    color: #979797;
+    text-align: right;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    left: 115px;
+
+    
+}
+
+.news-cards3 img {
+    position: relative;
+    top: 20px;
+    right: 35px;
+}
+
+.news-cards3 p {
+    color: var(--black, #343434);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: relative;
+    top: 20px;
+    width: 225px;
+    right: 35px;
+}
+
+/*FOOTER*/
+
+.foot-container {
+    background-color: #005BC1;
+    height: 200px;
+    
+}
+.contakty {
+    max-width: 1110px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 225px;
+    padding-top: 15px;
+    
+    border-bottom: 1px solid white;
+}
+
+.contakty p {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contakty a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navigator  {
+    display: grid;
+    grid-template-columns: 190px 190px 190px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+    min-height: 60px;
+    max-width: 1110px;
+    position: relative;
+    border-bottom: 1px solid #ffffff;
+    left: 225px;
+    padding-bottom: 10px;
+}
+
+.navigator a {
+    color: #ffffff;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: relative;
+    left: 2px;
+}
+
+.idk-footer {
+    max-width: 1110px;
+    position: relative;
+    left: 225px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.idk-footer span {
+    color:  #FFF;
+    text-align: right;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.idk-footer a {
+    color: #FFF;
+    text-decoration: none;
+    color: var(--white, #FFF);
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
